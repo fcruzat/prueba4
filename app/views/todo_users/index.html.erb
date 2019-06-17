@@ -1,0 +1,6 @@
+<% @todousers.each do |todouser| %>
+<%= todouser.todo.title %>
+<%= todouser.todo.photo %>
+<% end %>
+<br>
+<%= link_to  "Volver", todos_path %>
